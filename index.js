@@ -50,6 +50,7 @@ function removeFromCart(item) {
       cart.splice(i, 1);
       return(cart);
     } else {
+      console.log(item);
       return('That item is not in your cart.');
     }
   }
